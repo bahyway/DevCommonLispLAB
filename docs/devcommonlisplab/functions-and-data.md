@@ -58,8 +58,11 @@ The <mark style="color:blue;">**ZEROP, EVENP, and ODDP**</mark> predicates work 
 
 ```mermaid
 flowchart LR
-35 --> ZEROP --> NIL
-0 --> ZEROP --> T
+35 --> ZEROP 
+ZEROP --> NIL
+
+0 --> ZEROP 
+ZEROP --> T
 ```
 
 
@@ -71,9 +74,12 @@ flowchart LR
 ```mermaid
 
 flowchart LR
-28 --> ODDP --> NIL
-27 --> ODDP --> T
-27 --> EVENP --> NIL
+28 --> ODDP 
+ODDP --> NIL
+27 --> ODDP 
+ODDP --> T
+27 --> EVENP 
+EVENP --> NIL
 
 ```
 
