@@ -14,29 +14,51 @@ T and NIL are so basic to Lisp that if you ask a really dedicated Lisp programme
 
 A predicate is a question-answering function. Predicates output the symbol T when they mean yes and the symbol NIL when they mean no. The first predicate we will study is the one that tests whether its input is a number or not. It is called <mark style="color:blue;">**NUMBERP**</mark> (pronounced ‘‘**number-pee**,’’ as in ‘‘number predicate’’), and it looks like this:
 
-2 --> NUMBERP --> T
 
+
+```mermaid
+flowchart LR 
+2 --> NUMBERP --> T
 DOG --> NUMBERP --> NIL
+```
+
+
 
 Similarly, the <mark style="color:blue;">**SYMBOLP**</mark> predicate tests whether its input is a symbol. SYMBOLP returns T when given an input that is a symbol; it returns NIL for inputs that are not symbols.
 
-CAT --> SYMBOLP --> T
 
+
+```mermaid
+flowchart LR 
+CAT --> SYMBOLP --> T
 42 --> SYMBOLP --> NIL
+```
+
+
+
+
 
 The <mark style="color:blue;">**ZEROP, EVENP, and ODDP**</mark> predicates work only on numbers. ZEROP returns T if its input is zero.
 
+```mermaid
+flowchart LR
 35 --> ZEROP --> NIL
-
 0 --> ZEROP --> T
+```
+
+
+
+
 
 <mark style="color:blue;">**ODDP**</mark> returns T if its input is odd; otherwise it returns NIL. <mark style="color:blue;">**EVENP**</mark> does the reverse\\
 
 ```mermaid
 
 flowchart LR
-28 --> ODDP 
-ODDP --> NIL
+28 --> ODDP --> NIL
+27 --> ODDP --> T
+27 --> EVENP --> NIL
+
 ```
 
 
