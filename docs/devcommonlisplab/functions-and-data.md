@@ -32,15 +32,25 @@ NUMBERP--> NIL
 
 Similarly, the <mark style="color:blue;">**SYMBOLP**</mark> predicate tests whether its input is a symbol. SYMBOLP returns T when given an input that is a symbol; it returns NIL for inputs that are not symbols.
 
+The Symbol Predicate is:
+
 
 
 ```mermaid
 flowchart LR 
-CAT --> SYMBOLP --> T
-42 --> SYMBOLP --> NIL
+CAT --> SYMBOLP 
+SYMBOLP --> T
 ```
 
+The non-Symbol Predicate is:
 
+
+
+```mermaid
+flowchart LR 
+24 --> SYMBOLP 
+SYMBOLP --> NIL
+```
 
 
 
