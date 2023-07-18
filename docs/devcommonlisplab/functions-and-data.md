@@ -33,10 +33,10 @@ The <mark style="color:blue;">**ZEROP, EVENP, and ODDP**</mark> predicates work 
 <mark style="color:blue;">**ODDP**</mark> returns T if its input is odd; otherwise it returns NIL. <mark style="color:blue;">**EVENP**</mark> does the reverse\\
 
 ```mermaid
+
 flowchart LR
-28 --> ODDP --> NIL
-27 --> ODDP --> T
-27 --> EVENP --> NIL
+28 --> ODDP 
+ODDP --> NIL
 ```
 
 
