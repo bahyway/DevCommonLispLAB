@@ -18,8 +18,12 @@ A predicate is a question-answering function. Predicates output the symbol T whe
 
 ```mermaid
 flowchart LR 
-2 --> NUMBERP --> T
-DOG --> NUMBERP --> NIL
+2 --> NUMBERP 
+NUMBERP --> T
+
+flowchart LR 
+DOG --> NUMBERP 
+NUMBERP--> NIL
 ```
 
 
