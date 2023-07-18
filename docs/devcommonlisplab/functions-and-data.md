@@ -42,3 +42,11 @@ The <mark style="color:blue;">**ZEROP, EVENP, and ODDP**</mark> predicates work 
 
 ### THE EQUAL PREDICATE
 
+<mark style="color:blue;">**EQUAL**</mark> is a predicate for comparing two things to see if they are the same. EQUAL returns T if its two inputs are equal; otherwise it returns NIL. Common Lisp also includes predicates named <mark style="color:blue;">**EQ, EQL, and EQUALP**</mark> whose behavior is slightly different than EQUAL; the differences will not concern us here. For beginners, EQUAL is the right one to use.
+
+```mermaid
+flowchart LR
+
+A[Hard] -->|Text| B(Round)
+    
+```
