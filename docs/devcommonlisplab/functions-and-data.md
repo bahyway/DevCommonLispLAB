@@ -61,13 +61,17 @@ flowchart LR
 35 --> ZEROP 
 ZEROP --> NIL
 
+```
+
+Also:
+
+
+
+```mermaid
+flowchart LR
 0 --> ZEROP 
 ZEROP --> T
 ```
-
-
-
-
 
 <mark style="color:blue;">**ODDP**</mark> returns T if its input is odd; otherwise it returns NIL. <mark style="color:blue;">**EVENP**</mark> does the reverse\\
 
