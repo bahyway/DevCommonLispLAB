@@ -45,8 +45,8 @@ The <mark style="color:blue;">**ZEROP, EVENP, and ODDP**</mark> predicates work 
 ```mermaid
 
 flowchart LR
-Cat --> ZEROP 
-Mouse --> ZEROP
-ZEROP --> NIL
+Cat --> EQUAL
+Mouse --> EQUAL
+EQUAL --> NIL
 
 ```
