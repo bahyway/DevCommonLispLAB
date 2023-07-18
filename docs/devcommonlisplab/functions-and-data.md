@@ -76,18 +76,31 @@ ZEROP --> T
 flowchart LR
 28 --> ODDP 
 ODDP --> NIL
+
+```
+
+Another Example:
+
+
+
+```mermaid
+flowchart LR
 27 --> ODDP 
 ODDP --> T
-27 --> EVENP 
-EVENP --> NIL
 
 ```
 
 
 
+Also:
 
 
 
+```mermaid
+flowchart LR
+27 --> EVENP 
+EVENP --> NIL
+```
 
 ### THE EQUAL PREDICATE
 
