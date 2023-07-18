@@ -20,13 +20,15 @@ A predicate is a question-answering function. Predicates output the symbol T whe
 flowchart LR 
 2 --> NUMBERP 
 NUMBERP --> T
+```
 
+
+
+```mermaid
 flowchart LR 
 DOG --> NUMBERP 
 NUMBERP--> NIL
 ```
-
-
 
 Similarly, the <mark style="color:blue;">**SYMBOLP**</mark> predicate tests whether its input is a symbol. SYMBOLP returns T when given an input that is a symbol; it returns NIL for inputs that are not symbols.
 
